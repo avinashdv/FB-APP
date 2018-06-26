@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <title>
+      facebook
+    </title>
+    <style>
+    body{
+      font-size:8px;
+      margin:0;
+      padding:0;
+      font-family: 'Play', sans-serif;
+      
+    }
+    /*.profile{
+      display:none !important;
+    }
+    */
+  </style>
+  </head>
+  <body>
+  
+
+  <div class="main w3-padding-64">
+    <div class="w3-content w3-center w3-padding-64">
+      <h2 class="Facebook w3-padding-16">FaceBook</h2>
+        <input class="w3-input w3-border w3-padding-large" id="token" name="first" type="text" placeholder="Enter your FB Access token...">
+      <div class="w3-row w3-center w3-padding-16">
+        <div class="w3-col s6 w3-padding-large">
+          <button class="w3-btn w3-white w3-border w3-border-black w3-right" id="pro">Get Profile Page</button>
+          <!-- <p class="w3-xxlarge">Profile Page</p> -->
+        </div>
+        <div class="w3-col s6 w3-padding-large">
+          <button class="w3-btn w3-white w3-border w3-border-black w3-left" id="fee">Get Feeds page</button>
+          <!-- <p class="w3-xxlarge">Feeds Page</p> -->
+        </div>
+      </div>
+
+    </div>
+      <div class="w3-padding-64 w3-center">
+        <p class="p-p"><b>Note:</b> Give all the <b>User Data Permissions</b> to get complete Facebook page.</p>
+      </div>
+  </div>
+
+
+
+
+
+
+ 
+
+
+
+  
+  <!-- Start of Profile -->
+  <div class="FbProfile">
+    <!-- Start of nav bar -->
+    <div class="w3-bar bg">
+      <div class="w3-content">
+        <a class="w3-bar-item w3-round w3-button w3-left w3-hover-none facebook-heading" href="#"> <img class="w3-image profile-logo" src="images/fblogo.jpg" alt="fb"></a>
+
+        <button class="bg w3-button w3-hide-large w3-hide-medium w3-tiny w3-bar-item w3-right w3-xxlarge" id="rb">&#9776;</button>   
+      </div>
+    </div>
+    <!-- End of nav bar -->
+
+    <!-- HamBurger menu for smaller devices -->
+    <div class="heading-content w3-content w3-hide-large w3-hide-medium" id="rsb">
+      <div  id="menuBar"  class="bg w3-bar-block w3-center w3-card">
+        <a href="#quotes" class="about w3-bar-item w3-border-top w3-border-teal w3-padding-16 w3-button">About</a><a href="#rel" class="education w3-bar-item w3-border-top w3-border-teal w3-padding-16 w3-button">Education</a>
+        <a href="#ed" class="relation w3-bar-item w3-border-top w3-border-bottom w3-border-teal w3-padding-16 w3-button">RelationShips</a>
+      </div>  
+    </div>
+    <!-- end of nav bar -->
+
+    <!-- Start of main -->
+    <div class="w3-content profile">
+      <!-- Start of basic Details -->
+      <div class="w3-panel w3-light-grey w3-padding-16 w3-hide-small">
+        <div class="w3-row-padding">
+          <div class="w3-col l4 m12">
+            <div class="w3-padding-large">
+              <img src="" alt="ProfilePic" class="profilepic w3-round-large w3-image profile-me w3-card-4">
+            </div>
+          </div>
+          <div class="w3-col l8 m0">
+            <div class="w3-panel">
+              <h1><b><span class="main-content username"></span></b></h1>
+              <div class="text-content w3-row w3-hide-small w3-border-bottom w3-border-right w3-border-black w3-round bg">
+                <div class="w3-third w3-padding-left w3-border-black">
+                  <h6><b><span class="friends"></span></b> friends</h6>
+                </div>
+                <div class="w3-twothird w3-border-left w3-border-black w3-padding-left">
+                  <h6><i class="fa fa-map-marker" aria-hidden="true"></i> <span id="location"></span></h6>
+                </div>
+              </div>
+              <p class="text-content"><i class="fa fa-bookmark" aria-hidden="true"></i> <span id="profile-quotes"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Basic Details For Small Devices -->
+      <div class="w3-panel w3-light-grey w3-hide-medium w3-hide-large">
+        <div class="w3-row-padding w3-padding-16">
+          <div class="w3-col s4">
+            <img src="" alt="ProfilePic" class="lazy profilepic w3-circle w3-image profile-me w3-card-4">
+          </div>
+          <div class="w3-col s8 w3-center">
+            
+            <div class="main-content w3-container">
+              <h4><b><span class="username"></span></b></h4>  
+            </div>
+            <div class="text-content w3-row">
+              <div class="w3-col s6 ">
+                <h6><b><span class="friends"></span></b> Friends</h6>
+              </div>
+              <div class="w3-col s6">
+                <h6><b><span class="athletes"></span></b> Fav athletes</h6>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- End of Basic Details -->
+
+      <br>
+
+      <!-- Start of menu bar -->
+      <div class="w3-white">
+        <!-- Start of menu bar -->
+        <div class="heading-content w3-row-padding w3-round w3-center w3-hide-small">
+          <a href="#abtInfo">
+            <div class="about w3-third a w3-padding-16">
+              <p>ABOUT</p>
+            </div>
+          </a>
+          <a href="#eduInfo">
+            <div class="education w3-third e w3-padding-16">
+              <p>EDUCATION</p>
+            </div>
+          </a>
+
+          <a href="#relInfo">
+            <div class="relation w3-third r w3-padding-16">
+              <p>RELATIONSHIPS</p>
+            </div>
+          </a>
+        </div>
+        <!-- End of menu bar -->
+
+        <!-- Start of menu buttons -->
+        <div class="w3-panel w3-light-grey" id="Content">
+          <div id="abt" class="w3-light-grey w3-padding-16">
+            <p class="heading-content w3-left w3-padding w3-round w3-border-bottom w3-border-right w3-border-black bg">About</p>
+          </div>
+
+          <div id="rel" class="w3-light-grey w3-padding-16">
+            <p class="heading-content w3-left w3-border-bottom w3-border-black w3-border-right w3-padding w3-round bg">Family & Relationships</p>
+          </div>
+
+          <div id="ed" class="w3-light-grey w3-padding-16">
+            <p class="heading-content w3-left w3-border-bottom w3-border-right w3-border-black w3-padding w3-round bg" >Education</p>
+          </div>
+          <!-- End of menu buttons -->
+
+          <!-- Start of About Info -->
+          <div id="abtInfo" class="text-content w3-padding">
+            <div class="w3-row w3-border-bottom">
+              <div class="w3-third">
+                <p class="w3-left"><span id="genderIcon" class="w3-large w3-text-blue"></span> <b>Gender:</b> </p>
+              </div>
+              <div class="w3-twothird">
+                <p class="w3-left"><span id="profile-gender" class="w3-text-black"></span></p>
+              </div>
+            </div>
+            <div class="w3-row w3-border-bottom">
+              <div class="w3-third">
+                <p class="w3-left"><b>Date Of Birth:</b> </p>
+              </div>
+              <div class="w3-twothird">
+                <p class="w3-left "><span id="profile-dob"></span> (mm/dd/yyyy)</p>
+              </div>
+            </div>
+            <div class="w3-row w3-border-bottom">
+              <div class="w3-third">
+                <p class="w3-left"><b>Languages:</b> </p>
+              </div>
+              <div class="w3-twothird">
+                <p class="w3-left"><span id="languages"></span></p>
+              </div>
+            </div>
+
+            <div class="w3-row">
+              <div class="w3-third">
+                <p class="w3-left"><b>Email Address:</b> </p>
+              </div>
+              <div class="w3-twothird">
+                <p class="w3-left"><span id="email"></span></p>
+              </div>
+            </div>
+          </div>
+          <!-- End of About Info -->
+
+          <!-- Start of Edu Info -->
+          <div id="eduInfo" class="w3-padding text-content">
+            <div class="w3-row w3-border-bottom">
+              <div class="w3-col l4 m4">
+                <p class="w3-left"><b>High School: </b></p>
+              </div>
+              <div class="w3-col l8 m8">
+                <p class="w3-left"><span id="school"></span></p>
+              </div>
+            </div>
+            <div class="w3-row">
+              <div class="w3-col l4 m4">
+                <p class="w3-left"><b>College: </b></p>
+              </div>
+              <div class="w3-col l8 m8">
+                <p class="w3-left"><span id="college">(empty)</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Edu Info -->
+
+          <!-- Start of Relation Info -->
+          <div id="relInfo" class="text-content w3-padding">
+            <div class="w3-row w3-border-bottom">
+              <div class="w3-third">
+                <p class="w3-left"><b>Relationship Status:</b> </p>
+              </div>
+              <div class="w3-twothird">
+                <p class="w3-left"><span id="relationshipStatus"></span></p>
+              </div>
+            </div>
+            <div class="w3-row">
+              <div class="w3-third">
+                <p class="w3-left"><b>Family:</b> </p>
+              </div>
+              <div class="w3-twothird">
+                <p class="w3-left"><span id="family"></span></p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Relation Info -->
+        </div>   
+      </div>
+    </div>
+
+    <div class="loader w3-content"></div>
+    <!-- End of Main -->
+  </div>
+  <!-- End Of Profile -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Start of Feeds -->
+  <div class="feeds">
+    
+    <!-- Start of nav bar -->
+    <div class="w3-bar w3-top bg">
+      <div class="w3-content">
+        <a class="w3-bar-item w3-round w3-button w3-left w3-hover-none facebook-heading" href="#"> <img class="w3-image logo" src="images/fbfeedlogo.jpg" alt="fb"></a> 
+      </div>
+    </div>
+    <!-- end of nav bar -->
+
+    <!-- Start of main -->
+    <div class="w3-content w3-padding-64">
+      <!-- Start of basic Details -->
+      <div class="w3-panel w3-white w3-border w3-padding w3-hide-small profile">
+        <div class="w3-row-padding">
+          <div class="w3-col m3 s4">
+            <div class="w3-container">
+              <img src="" alt="ProfilePic" class="profilepic w3-round-large w3-image me">
+            </div>
+          </div>
+          <div class="w3-col m9 s8 w3-center">
+            <div class="w3-container">
+              <h4 class="h-four"><b><span class="main-content username"></span></b></h4>
+              <div class="w3-row  w3-border-top w3-center">
+                <div class="w3-col m6 s6">
+                  <p class="p-p"><i class="fa fa-birthday-cake" aria-hidden="true"></i> <span id="dob"></span></p>
+                </div>
+                <div class="w3-col m6 s6">
+                  <p class="p-p"><b>Gender:</b> <span id="gender"></span></p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-panel w3-white w3-border w3-padding w3-hide-large w3-hide-medium profile">
+        <div class="w3-row-padding">
+          <div class="w3-col m3 s4">
+            <div>
+              <img src="" alt="ProfilePic" class="profilepic w3-round-large w3-image me">
+            </div>
+          </div>
+          <div class="w3-col m9 s8 w3-center">
+            <div class="w3-container">
+              <h4 class="h-four"><b><span class="main-content username"></span></b></h4>
+              <div class="w3-border-top">
+                <p class="p-p"><i class="fa fa-bookmark" aria-hidden="true"></i> <span id="quotes"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Loader -->
+      <div class="loader w3-content"></div>
+      
+      <!-- Posts -->
+      <div class="w3-padding-24">
+        <span id="story"></span>
+      </div>
+      
+     </div>
+  </div>
+  <!-- End Of Feeds -->
+
+
+  
+
+
+  <div id="timeout">
+    <div class="w3-bar w3-top bg w3-margin-bottom">
+      <div class="w3-content w3-padding-32 w3-hide-small w3-hide-medium">
+        <a href="#" class="h-four go-back">
+          < Go Back to FB
+        </a>
+      </div>
+
+      <div class="w3-center w3-padding-32 w3-hide-large">
+        <a href="#" class="h-four go-back">
+          < Go Back to FB
+        </a>
+      </div>
+    </div>
+    <div class="w3-center w3-content aww">
+      <img src="images/aww.jpg" alt="" class="profile-me">
+      <p class="h-four w3-center w3-padding-64" style="width:100%; height:500px">
+        404 Not Found
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,323 @@
+@media screen and (min-width: 993px){
+  .heading-content{
+    font-size:1.8em;
+  }
+  .text-content{
+    font-size:1.8em;
+  }
+  .a{
+    border-top:1px solid grey;
+  }
+  .e{
+    border-top:1px solid grey;
+  }
+  .r{
+    border-top:1px solid grey;
+  }
+  .a:hover{
+    opacity: 1;
+    border-top:1px solid black; 
+  }
+  .e:hover{
+    opacity:1;
+    border-top:1px solid black;
+  }
+  .r:hover{
+    opacity:1;
+    border-top:1px solid black;
+  }
+
+  .barTop{
+    border-top:1px solid black;
+  }
+
+  .bar{
+    opacity: 0.4;
+  }
+
+  .profile-me{
+    width: 230px;
+    height:230px;
+  }
+
+  .profile-logo{
+    width:200px;
+    height:60px;
+  }
+
+  .h-four{
+    font-size:2.5em;
+  }
+
+  .p-p{
+    font-size:2em;
+  }
+
+  span{
+    font-size:1.2em;
+  }
+
+  .me{
+    max-width: 120px;
+  }
+
+  .logo{
+    width:180px;
+    height:50px;
+  }
+
+  .indiPost{
+    width:60%;
+  }
+
+  .postpic{
+    width:100%;
+  }
+  
+  h2{
+    font-size:10em;
+  }
+
+  #pro, #token{
+    font-size:4em;
+  }
+
+  #fee{
+    font-size:4em;
+  }
+
+  .loader {
+      border: 12px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 12px solid #55E9BC;
+      width: 100px;
+      height: 100px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+
+   .heading-content{
+    font-size:1.4em;
+  }
+  .text-content{
+    font-size:1.5em;
+  }
+  .a{
+    border-top:1px solid grey;
+  }
+  .e{
+    border-top:1px solid grey;
+  }
+  .r{
+    border-top:1px solid grey;
+  }
+  .a:hover{
+    opacity: 1;
+    border-top:1px solid black;  
+  }
+  .e:hover{
+    opacity:1;
+    border-top:1px solid black;
+  }
+  .r:hover{
+    opacity:1;
+    border-top:1px solid black;
+  }
+
+  .barTop{
+    border-top:1px solid black;
+  }
+
+  .bar{
+    opacity: 0.4;
+  }
+
+  .profile-me{
+    width: 200px;
+    height:200px;
+  }
+
+  .profile-logo{
+    width:200px;
+    height:60px;
+  }
+
+
+   .h-four{
+    font-size:1.8em;
+  }
+
+  .p-p{
+    font-size:1.5em;
+  }
+  
+  span{
+    font-size:1em;
+  }
+
+  .me{
+    max-width:80px;
+  }
+
+  .logo{
+    width:150px;
+    height:40px;
+  }
+
+  .indiPost{
+    width:60%;
+  }
+
+  .postpic{
+    width:100%; 
+  }
+  
+  h2{
+    font-size:8em;
+  }
+  
+  #pro, #token{
+    font-size:2.5em;
+  }
+
+  #fee{
+    font-size:2.5em;
+  }
+
+  .loader {
+      border: 8px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 8px solid #55E9BC;
+      width: 80px;
+      height: 80px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+}
+
+@media screen and (max-width: 600px){
+
+  .heading-content{
+    font-size:1.2em;
+  }
+  .text-content{
+    font-size:1.2em;
+  }
+  .profile-me{
+    max-width: 80px;
+  }
+  .profile-logo{
+    width:150px;
+    height:50px;
+  }
+
+  .h-four{
+    font-size:1.6em;
+  }
+
+  .p-p{
+    font-size:1.4em;
+  }
+  
+  span{
+    font-size:0.8em;
+  }
+
+  .me{
+    max-width:70px;
+  }
+
+  .logo{
+    width:120px;
+    height:30px;
+  }
+
+  .indiPost{
+    width:100%;
+    
+  }
+
+  .postpic{
+    width:100%;
+  }
+  
+  h2{
+    font-size:6em;
+  }
+  
+  #pro, #token{
+    font-size:1.4em;
+  }
+
+  #fee{
+    font-size:1.4em;
+  }
+
+
+  .loader {
+      border: 8px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 8px solid #55E9BC;
+      width: 50px;
+      height: 50px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+}
+
+.profile{
+  display:none;
+}
+.feeds{
+  display:none;
+}
+
+.rsb{
+  display:none;
+}
+.bg{
+  background-color: #55E9BC;
+}
+
+a{
+  text-decoration: none;
+}
+
+.aww{
+  padding-top:200px;
+}
+
+.go-back:hover{
+  background-color: black;
+  color:white;
+}
